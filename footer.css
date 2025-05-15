@@ -89,3 +89,14 @@
     width: 30px;
     height: 30px;
 }
+
+@media (max-width: 580px) {
+    .write button {
+        width: 100px;
+        height: 38px;
+    }
+    #email {
+        width: 250px;
+        height: 38px;
+    }
+}
