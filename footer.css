@@ -92,11 +92,11 @@
 
 @media (max-width: 580px) {
     .write button {
-        width: 100px;
+        width: 90px;
         height: 38px;
     }
     #email {
-        width: 250px;
+        width: 230px;
         height: 38px;
     }
 }
