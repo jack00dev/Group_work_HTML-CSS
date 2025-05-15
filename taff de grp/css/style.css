@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*Travaille charles et severin*/
+.explore {
+  background: #e6007e;
+  color: #fafafa;
+  border: none;
+  width: 320px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+
+.produits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.foods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.produits-contenair {
+  margin: 5%;
+  margin-top: 0;
+  padding: 5%;
+}
+
+.food-descript{
+  margin-top: -5px;
+  margin-left: 15px;
+  margin-bottom: 40px;
+}
+
+.food-descript h3 {
+  margin: 0;
+  padding: 0;
+}
+
+aside{
+  margin: 0;
+  margin-left: -30px;
+}
+
+.texte {
+  margin-top: 0px;
+}
+
+@media (max-width: 1300px) {
+  .produits {
+  display: grid;
+  grid-template-columns:  1fr;
+  justify-content: space-between;
+}
+
+.foods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* .produits-contenair {
+  margin: 5%;
+  margin-top: 10px;
+  padding: 5%;
+} */
+
+.food-descript{
+  margin-top: -5px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+.food-descript h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.food-descript h3 {
+  font-size: 25px;
+}
+
+.food-descript p {
+  font-size: 20px;
+}
+
+.paragraphe {
+  padding-bottom: 25px;
+}
+
+.produits-contenair h2 {
+  font-size: 15px;
+}
+
+.Drink-img {
+  width: 500px;
+}
+
+.foods img {
+  width: 370px;
+  padding-bottom: 20px;
+}
+}
+
+@media (max-width: 800px) {
+
+.xxx {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.produits {
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+
+.foods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.explore {
+  background: #e6007e;
+  color: #fafafa;
+  border: none;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+
+
+
+.food-descript{
+  margin-top: -5px;
+  margin-bottom: 30px;
+}
+
+.food-descript h3 {
+  font-size: 10px;
+}
+
+.food-descript p {
+  font-size: 13px;
+}
+
+.paragraphe {
+  padding-bottom: 20px;
+}
+
+.produits-contenair h2 {
+  font-size: 15px;
+}
+
+.Drink-img {
+  width: 450px;
+  padding-left: -10px;
+}
+
+.foods img {
+  width: 300px;
+}
+}
+
+/*Travaille charles et severin*/
+
