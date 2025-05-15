@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Ajouté pour meilleure gestion des tailles */
+}
+
+.container {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+
+.gradient {
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(to right,#1d1d1d ,#e6007e);
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    display: block;
+}
+
+.logo {
+    width: 100px;
+    top: 20px;
+    left: 20px; /* Remplacé pour éviter débordement */
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.write h1 {
+    color: #FFF;
+    padding: 205px 520px;
+    top: -25px ;
+    position: absolute;
+    text-align: center;
+    font-size: clamp(1rem, 5vw, 2.25rem); /* Responsive text */
+}
+
+.option {
+    width: auto;
+    top: 20px;
+    right: 70px; /* Ajusté pour laisser plus d’espace */
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #FFF;
+}
+
+.stylesection {
+    background-color: transparent;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 1rem;
+    max-width: 90vw;
+}
+
+.transparent {
+    color: black;
+    text-align: center;
+}
+
+.search {
+    width: 20px;
+    top: 20px;
+    right: 30px; /* Plus près du bord mais sans chevauchement */
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* 🔁 Ajouts pour le responsive : */
+
+@media (max-width: 1024px) {
+    .write h1 {
+        padding: 250px 100px;
+    }
+
+    .logo {
+        width: 80px;
+        left: 20px;
+    }
+
+    .option {
+        right: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    .write h1 {
+        padding: 180px 40px;
+    }
+
+    .logo {
+        width: 60px;
+        left: 15px;
+    }
+
+    .search {
+        right: 20px;
+    }
+
+    .option {
+        right: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .write h1 {
+        padding: 120px 20px;
+        font-size: 1.2rem;
+    }
+
+    .logo {
+        width: 50px;
+        left: 10px;
+    }
+
+    .search {
+        right: 10px;
+    }
+
+    .option {
+        top: auto;
+        bottom: 20px;
+        right: 10px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .stylesection {
+        font-size: 0.9rem;
+    }
+}
