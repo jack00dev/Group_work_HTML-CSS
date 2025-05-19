@@ -164,7 +164,7 @@ body {
 }
 
 .tag1 {
-  background-image: url(../images/ecosystème.jn.jpg);
+  background-image: url(./images/ecosystème.jn.jpg);
   width: 300px;
   height: 200px;
   background-size: cover;
@@ -172,7 +172,7 @@ body {
 }
 
 .tag2 {
-  background-image: url(../images/cafe.jpg);
+  background-image: url(./images/cafe.jpg);
   width: 300px;
   height: 200px;
   background-size: cover;
@@ -180,7 +180,7 @@ body {
 }
 
 .tag3 {
-  background-image: url(../images/street-tacos.jpg);
+  background-image: url(./images/street-tacos.jpg);
   width: 300px;
   height: 200px;
   background-size: cover;
@@ -263,7 +263,7 @@ aside {
 
 /* Travail benedicte*/
 .message {
-  background-image: url(../images/pain.jpg);
+  background-image: url(./images/pain.jpg);
   height: 300px;
   width: 100%;
   align-items: center;
