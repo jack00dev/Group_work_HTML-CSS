@@ -1,1 +1,609 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+/*Travrail zozo*/
+.container {
+  width: 100%;
+  height: 100%;
+
+}
+
+.gradient {
+  width: 100%;
+  height: 708px;
+  background-image: linear-gradient(to right, #1d1d1d, #e6007e);
+  opacity: 0.8;
+  position: absolute;
+}
+
+.grad {
+  width: 100%;
+  height: 708px;
+  object-fit: cover;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.logo {
+  width: 100px;
+  top: 20px;
+  left: 100px;
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+
+.write h1 {
+  color: #FFF;
+  padding: 350px;
+  top: -25px;
+  position: absolute;
+  text-align: center;
+}
+
+
+.option {
+  width: 100px;
+  top: 20px;
+  right: 140px;
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  color: #FFF;
+}
+
+.stylesection {
+  background-color: transparent;
+  color: #FFF;
+  border-radius: 5px;
+}
+
+.transparent {
+  color: black;
+  text-align: center;
+}
+
+
+.search {
+  width: 20px;
+  top: 20px;
+  right: 110px;
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+}
+
+/*Travrail zozo*/
+
+
+/*Travail de diane*/
+
+.trending {
+  margin-top: 50px;
+}
+
+.trending h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.trending h2 span {
+  color: #d1007d;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 15px;
+  width: 300px;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 4px 8px rgba(247, 178, 30, 0.1);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  border: 0px solid transparent;
+}
+
+
+.card h3 {
+  margin: 10px;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 0, 5;
+  padding: 0 20px;
+  margin: 10px;
+}
+
+.card a {
+  color: #d1007d;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  align-self: flex-start;
+}
+
+.more {
+  border: solid 1px #d1007d;
+  color: #d1007d;
+  width: 120px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 6px;
+  margin: 20px 0 20px 30px;
+}
+
+.tag1 {
+  background-image: url(../images/ecosystème.jn.jpg);
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.tag2 {
+  background-image: url(../images/cafe.jpg);
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.tag3 {
+  background-image: url(../images/street-tacos.jpg);
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card span button {
+  background-color: #d1007d;
+  color: #f9f9f9;
+  border: 1px solid transparent;
+  margin-top: 181px;
+}
+
+
+/*Travaille charles et severin*/
+.explore {
+  background: #e6007e;
+  color: #fafafa;
+  border: none;
+  width: 320px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+
+.produits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.foods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.produits-contenair {
+  margin: 5%;
+  margin-top: 0;
+  padding: 5%;
+}
+
+
+.local {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: baseline;
+}
+
+
+.local .line {
+  background-color: #1f1f1f;
+  border: 1px solid transparent;
+  padding: 1px;
+}
+
+
+.food-descript {
+  margin-top: -5px;
+  margin-left: 15px;
+  margin-bottom: 40px;
+}
+
+.food-descript h3 {
+  margin: 0;
+  padding: 0;
+}
+
+aside {
+  margin: 0;
+  margin-left: -30px;
+}
+
+.texte {
+  margin-top: 0px;
+}
+
+/*Travaille charles et severin*/
+
+/* Travail benedicte*/
+.message {
+  background-image: url(../images/pain.jpg);
+  height: 300px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  background-position: center;
+  filter: brightness(70%);
+}
+
+
+
+.button {
+  color: white;
+  font-size: 15px;
+  padding: 15px;
+  background-color: #e6007e;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  justify-content: center;
+  border: none;
+  text-align: center;
+  z-index: 2;
+}
+
+/* Travail benedicte*/
+
+
+
+/* travail eric*/
+
+
+.footer {
+  text-align: center;
+  font-size: 15px;
+  padding: 2% 0;
+  background-color: #39393a;
+}
+
+.footer .img {
+  background-color: #39393a;
+  width: 250px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  color: #fafafa;
+}
+
+#email {
+  box-sizing: border-box;
+  width: 350px;
+  margin-top: 4px;
+  margin-bottom: 50px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 7px 0 0 7px;
+  color: #fafafa;
+  background-color: #1f1f1f;
+}
+
+.write button {
+  box-sizing: border-box;
+  width: 150px;
+  margin-top: 4px;
+  margin-bottom: 50px;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 0 7px 7px 0;
+  background-color: #fafafa;
+  color: #1f1f1f;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.write {
+  display: flex;
+  justify-content: center;
+}
+
+
+.items ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.items ul li a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.link ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.link img {
+  border-radius: 50%;
+  background-color: #fafafa;
+  width: 30px;
+  height: 30px;
+}
+
+/* travail eric*/
+
+/* 🔁 Ajouts pour le responsive : */
+/* zozo */
+
+@media (max-width: 1155px) {
+  .write h1 {
+    padding: 250px 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .write h1 {
+    padding: 180px 40px;
+  }
+
+  .logo {
+    width: 60px;
+    left: 15px;
+  }
+
+  .search {
+    right: 20px;
+  }
+
+  .option {
+    right: 50px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .write h1 {
+    padding: 120px 20px;
+    font-size: 1.2rem;
+  }
+
+  .logo {
+    width: 50px;
+    left: 10px;
+  }
+
+  .search {
+    right: 10px;
+  }
+}
+
+/* charles & sévérin */
+
+@media (max-width: 1300px) {
+  .produits {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+  }
+
+  .foods {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* .produits-contenair {
+  margin: 5%;
+  margin-top: 10px;
+  padding: 5%;
+} */
+
+  .food-descript {
+    margin-top: -5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+  }
+
+  .food-descript h3 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .food-descript h3 {
+    font-size: 25px;
+  }
+
+  .food-descript p {
+    font-size: 20px;
+  }
+
+  .paragraphe {
+    padding-bottom: 25px;
+  }
+
+  .produits-contenair h2 {
+    font-size: 15px;
+  }
+
+  .Drink-img {
+    width: 500px;
+  }
+
+  .foods img {
+    width: 370px;
+    padding-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 800px) {
+
+  .xxx {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  .produits {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .foods {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  .explore {
+    background: #e6007e;
+    color: #fafafa;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+
+  .food-descript {
+    margin-top: -5px;
+    margin-bottom: 30px;
+  }
+
+  .food-descript h3 {
+    font-size: 10px;
+  }
+
+  .food-descript p {
+    font-size: 13px;
+  }
+
+  .paragraphe {
+    padding-bottom: 20px;
+  }
+
+  .produits-contenair h2 {
+    font-size: 15px;
+  }
+
+  .Drink-img {
+    width: 450px;
+    padding-left: -10px;
+  }
+
+  .foods img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 490px) {
+  .produits {
+    margin: 0;
+  }
+
+  .produits section .jus img {
+    width: 320px;
+  }
+
+  aside {
+    justify-content: center;
+    margin: 0;
+  }
+
+  aside img {
+    width: 250px;
+  }
+
+  .foods {
+    display: block;
+  }
+}
+
+/* benedicte */
+
+@media (max-width :763px) {
+  .message {
+    font-size: 15px;
+  }
+}
+
+@media (max-width : 315px) {
+  .message {
+    font-size: 10px;
+  }
+}
+
+@media (max-width : 200px) {
+  .message {
+    font-size: 5px;
+  }
+}
+
+/* eric */
+
+@media (max-width: 580px) {
+  .write button {
+    width: 90px;
+    height: 38px;
+  }
+
+  #email {
+    width: 230px;
+    height: 38px;
+  }
+}
